@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="adopt_luna_cat" type="id" />
+    <item name="details_luna_cat" type="id" />
+    <item name="adopt_cleo_cat" type="id" />
+    <item name="details_cleo_cat" type="id" />
+</resources>

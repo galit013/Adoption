@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baige_back"
+    tools:context=".Loading">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginBottom="18dp"
+        android:scrollbarThumbHorizontal="@color/black"
+        android:scrollbarThumbVertical="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/percentValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="291dp"-->
+    <!--        android:layout_height="177dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.068"-->
+    <!--        app:srcCompat="@drawable/bride" />-->
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="392dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:text="welcome to the adoption app"
+        android:textColor="@color/brown"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percentValue" />
+
+    <TextView
+        android:id="@+id/percentValue"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="124dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/tv6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <ImageView
+        android:id="@+id/animImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pet_shop_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home_screen"
+        android:title="Home" />
+    <item android:id="@+id/cats_screen"
+        android:title="Cats" />
+    <item android:id="@+id/dogs_screen"
+        android:title="Dogs" />
+    <item android:id="@+id/add_animal_screen"
+        android:title="add animal" />
+    <item android:id="@+id/profile"
+        android:title="profile" />
+    <item android:id="@+id/log_out"
+        android:title="log out"/>
+</menu>
